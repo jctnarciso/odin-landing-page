@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0px;
 }
 
@@ -23,7 +23,7 @@ div.header a {
 
 div.header .header-logo {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 900;
   color: #f9faf8;
 }
 
@@ -45,14 +45,16 @@ div.section-one {
   align-items: center;
   justify-content: space-between;
   background-color: #1f2937;
-  padding-top: 64px;
-  padding-bottom: 64px;
+}
+
+div.section-one-text {
+  max-width: 50%;
 }
 
 div.section-one-text h1 {
   color: #f9faf8;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 900;
   margin: 15px 0px;
 }
 
@@ -65,8 +67,8 @@ div.section-one-text p {
 div.section-one-text button {
   color: #f9faf8;
   background-color: #3882f6;
-  padding: 8px 32px;
-  font-weight: 800;
+  padding: 8px 25px;
+  font-weight: 900;
   font-size: 18px;
   border-radius: 12px;
   border-style: none;
@@ -77,4 +79,65 @@ div.section-one-text button {
   height: 300px;
   width: 600px;
   background-color: grey;
+}
+
+.section-one,
+.section-two,
+.section-three {
+  padding: 100px 0;
+}
+
+.section-two h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.section-two .cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.section-two .card {
+  width: 200px;
+  text-align: center;
+}
+
+.section-two .img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 16px;
+}
+
+.section-three {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three blockquote,
+.section-three figure {
+  margin: 0px;
+}
+
+.section-three figure {
+  width: 45%;
+}
+
+.section-three p {
+  font-weight: 100;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 20px 0px;
+}
+
+.section-three figcaption {
+  text-align: right;
+  font-weight: 800;
 }
