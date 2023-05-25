@@ -5,6 +5,12 @@ body {
   margin: 0px;
 }
 
+div.header,
+div.section-one {
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
 div.header {
   background-color: #1f2937;
   display: flex;
@@ -34,3 +40,41 @@ div.header ul a {
   color: #e5e7eb;
 }
 
+div.section-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+div.section-one-text h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 15px 0px;
+}
+
+div.section-one-text p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0px;
+}
+
+div.section-one-text button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 8px 32px;
+  font-weight: 800;
+  font-size: 18px;
+  border-radius: 12px;
+  border-style: none;
+  margin-top: 15px;
+}
+
+.placeholder-img {
+  height: 300px;
+  width: 600px;
+  background-color: grey;
+}
